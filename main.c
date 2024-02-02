@@ -16,7 +16,6 @@ int main(int argc, const char * argv[]) {
     a.next=&b;
     head=&a;
     b.value=head->value+3;
-
     printf("%d\n", head ->value ); //what value for 5
     printf("%d\n", head ->next->value ); //what value for 8
     printf("\n\n");
